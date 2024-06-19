@@ -4,6 +4,8 @@ import MovieCard from "../components/MovieCard";
 const moviesURL = import.meta.env.VITE_API;
 const apiKey = import.meta.env.VITE_API_KEY; 
 
+import './MoviesGrid.css'
+
 
 const Home = () => {
     
