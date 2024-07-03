@@ -24,6 +24,7 @@ const Search = () => {
         const data = await res.json()
 
         setMovies(data.results);
+        
     };
 
 
